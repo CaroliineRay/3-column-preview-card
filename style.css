@@ -88,10 +88,16 @@ img {
 
 @media screen and (min-width: 700px) {
 
+    html, body {
+        height: 100%;
+    }
+
     body {
+        margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
      }
     
      .main_container {
@@ -145,14 +151,18 @@ img {
 }
 
 
-@media screen and (min-width:800px)
+@media screen and (min-width:800px) {
 
-{
+html, body {
+    height: 100%;
+}
+
  body {
-    background-color: peachpuff;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
  }
 
  .main_container {
@@ -192,11 +202,17 @@ p {
 
 @media screen and (min-width: 920px) {
 
+html, body {
+    height: 100%;
+}
+
     body {
+        margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: white;
+        overflow: hidden;
     }
 
     .main_container {
